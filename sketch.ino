@@ -21,7 +21,7 @@ void setup(){
   Serial.print("What to display?");
   matrix.begin();  //  initialise the module
   matrix.displayClear();  //  clear, if there is anything
-  matrix.displayText("Hello", PA_CENTER, 50, 2000, PA_SCROLL_LEFT, PA_WIPE_CURSOR);
+  matrix.displayText("Daisy", PA_CENTER, 50, 2000, PA_SCROLL_LEFT, PA_WIPE_CURSOR);
 
   /*
   args : 
